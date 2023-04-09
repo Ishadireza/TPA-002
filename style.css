@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    border: 1px groove white;
+    border: 1px groove whitesmoke;
     border-radius: 8px;
     background-color: whitesmoke;
     width: 600px;
@@ -39,4 +39,15 @@ body {
 
 #height {
     margin-top: 10px;
+}
+
+#btn {
+    background-color: gainsboro;
+    border: 1px groove gainsboro;
+    border-radius: 4px;
+    padding: 8px 8px;
+}
+
+#btn:hover {
+    background-color: rgb(205, 205, 205);
 }
